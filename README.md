@@ -13,6 +13,6 @@ Books, articles, different useful resources for study ruby
 
 
 <h2>Video :</h2>
-<a href="http://rubyschool.us/">Бесплатный курс по программированию на Ruby для начинающих</a>
+1)<a href="http://rubyschool.us/">Бесплатный курс по программированию на Ruby для начинающих</a>
 
-FreeCodeCamp - 4 hours video <a href="https://www.youtube.com/watch?v=t_ispmWmdjY">Ruby Programming Language - Full Course </a>
+2)FreeCodeCamp - 4 hours video <a href="https://www.youtube.com/watch?v=t_ispmWmdjY">Ruby Programming Language - Full Course </a>
