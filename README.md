@@ -28,4 +28,4 @@ Books, articles, different useful resources for study ruby
 <ul><h2>There are three data types in Ruby that we’re interested in right now: </ul</h2>
   <li>-Numeric (any number), </li>
   <li>-Boolean (which can be true or false), and </li>
-  <li>-String (words or phrases like "I'm learning Ruby!").</li>
+  <li>-String (words or phrases like "I'm learning Ruby!"). </li>
