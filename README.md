@@ -1,9 +1,25 @@
 # ruby_study :
-Books, articles, different useful resources for study ruby
-https://www.rubyguides.com/2017/08/ruby-linked-list/
-http://ruby-doc.org/core-2.4.0/Enumerable.html
-https://www.8host.com/blog/rabota-s-massivami-v-ruby/
-https://rtfm.co.ua/books-translations/kus-ruby-s-nulya/ruby-s-nulya-chast-3-peremennye-konstanty-i-literaly/
+Books, articles, different useful resources for study ruby:
+
+<ul>
+  <li>
+<a href="https://www.rubyguides.com/2017/08/ruby-linked-list/">Practical Computer Science in Ruby</a>
+  </li>
+  <li>
+<a href="http://ruby-doc.org/core-2.4.0/Enumerable.html">RubyStuff.com: The best Ruby T-shirts, mugs, bags, and mor</a>
+  </li>
+  <li>
+<a href="https://www.8host.com/blog/rabota-s-massivami-v-ruby/">РАБОТА С МАССИВАМИ В RUBY</a>
+  </li>
+  <li>
+<a href="https://rtfm.co.ua/books-translations/kus-ruby-s-nulya/ruby-s-nulya-chast-3-peremennye-konstanty-i-literaly/">Ruby: с нуля </a>
+  </li>
+  
+  <li>
+  <a href="https://medium.com/@zylberberg.jonathan/linked-lists-f656bd22f2fa">Linked Lists (Ruby)</a>
+</li>
+  
+ </ul>
 
 <h2>Play ruby :</h2>
 
