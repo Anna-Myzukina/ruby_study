@@ -1,5 +1,9 @@
 # ruby_study :
 Books, articles, different useful resources for study ruby
+https://www.rubyguides.com/2017/08/ruby-linked-list/
+http://ruby-doc.org/core-2.4.0/Enumerable.html
+https://www.8host.com/blog/rabota-s-massivami-v-ruby/
+https://rtfm.co.ua/books-translations/kus-ruby-s-nulya/ruby-s-nulya-chast-3-peremennye-konstanty-i-literaly/
 
 <h2>Play ruby :</h2>
 
