@@ -39,6 +39,7 @@ Books, articles, different useful resources for study ruby:
 
 2)FreeCodeCamp - 4 hours video <a href="https://www.youtube.com/watch?v=t_ispmWmdjY">Ruby Programming Language - Full Course </a>
 
+3)<a href="https://www.youtube.com/watch?v=MB_41b42pRg"> Ruby on Visual Studio Code (required for class)</a>
 <ul><h2>Ruby is:</h2></ul>
 
 <li>High-level, meaning reading and writing Ruby is really easy—it looks a lot like regular English!</li>
