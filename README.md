@@ -59,3 +59,4 @@ Books, articles, different useful resources for study ruby:
 </ul>
 
 <h2><a href="https://medium.com/metalanguage/nil-is-not-null-and-other-tales-febf6730f216">nil is an Object, NULL is a memory pointer</a></h2>
+But in Ruby, nil is an object. You can use it as a value, you can call methods on it, you can define methods for it. It’s not NULL and it doesn’t make your programs vulnerable to things that NULL makes your program vulnerable to.
