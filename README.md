@@ -18,7 +18,9 @@ Books, articles, different useful resources for study ruby:
   <li>
   <a href="https://medium.com/@zylberberg.jonathan/linked-lists-f656bd22f2fa">Linked Lists (Ruby)</a>
 </li>
-  
+  <li>
+<a href="https://rubymonk.com/learning/books/1-ruby-primer/chapters/6-objects/lessons/35-introduction-to-objects">Learn Ruby.
+  Free, interactive tutorials to help you discover Ruby idioms, in your browser!</a></li>
  </ul>
 
 <h2>Play ruby :</h2>
@@ -41,6 +43,8 @@ Books, articles, different useful resources for study ruby:
 
 3)<a href="https://www.youtube.com/watch?v=MB_41b42pRg"> Ruby on Visual Studio Code (required for class)</a>
 <ul><h2>Ruby is:</h2></ul>
+
+4)<a href="https://www.coursera.org/lecture/data-structures/stacks-UdKzQ">Stacks</a>
 
 <li>High-level, meaning reading and writing Ruby is really easy—it looks a lot like regular English!</li>
 
