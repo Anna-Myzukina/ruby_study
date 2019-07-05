@@ -52,7 +52,10 @@ Books, articles, different useful resources for study ruby:
 
 <li>Easy to use. Ruby was designed by Yukihiro Matsumoto (often just called “Matz”) in 1995. Matz set out to design a language that emphasized human needs over those of the computer, which is why Ruby is so easy to pick up.</li>
 
-<ul><h2>There are three data types in Ruby that we’re interested in right now: </ul</h2>
+<ul><h2>There are three data types in Ruby that we’re interested in right now: </h2>
   <li>-Numeric (any number), </li>
   <li>-Boolean (which can be true or false), and </li>
   <li>-String (words or phrases like "I'm learning Ruby!"). </li>
+</ul>
+
+<h2><a href="https://medium.com/metalanguage/nil-is-not-null-and-other-tales-febf6730f216">nil is an Object, NULL is a memory pointer</a></h2>
