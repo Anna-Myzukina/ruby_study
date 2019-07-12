@@ -21,6 +21,7 @@ Books, articles, different useful resources for study ruby:
   <li>
 <a href="https://rubymonk.com/learning/books/1-ruby-primer/chapters/6-objects/lessons/35-introduction-to-objects">Learn Ruby.
   Free, interactive tutorials to help you discover Ruby idioms, in your browser!</a></li>
+  <li><a href="https://ruby-doc.org/">Documentation</a></li>
  </ul>
 
 <h2>Play ruby :</h2>
@@ -33,7 +34,10 @@ Books, articles, different useful resources for study ruby:
 
 4)<a href="https://www.codecademy.com/learn/learn-ruby">CodeAcademy</a>
 
-5)<a href="https://ruby-doc.org/">Documentation</a>
+5)<a href="https://rubymonk.com/">rubymonk=> Free, interactive tutorials to help you discover Ruby idioms, in your browser!</a>
+
+
+
 
 
 <h2>Video :</h2>
