@@ -2,7 +2,7 @@
 Books, articles, different useful resources for study ruby:
 
 <ul>
-  <li><a href="https://www.mikedane.com/programming-languages/ruby/methods/"></a>The basics of programming in Ruby</li>
+  <li><a href="https://www.mikedane.com/programming-languages/ruby/methods/">The basics of programming in Ruby</a></li>
   <li>
 <a href="https://www.rubyguides.com/2017/08/ruby-linked-list/">Practical Computer Science in Ruby</a>
   </li>
