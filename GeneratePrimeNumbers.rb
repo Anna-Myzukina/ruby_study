@@ -263,10 +263,12 @@ describe FindPrime do
   end
 
 end
-The first two tests we wrote is like scaffold of a building. Once the building construction is done, scaffold goes away.
+The first two tests we wrote is like scaffold of a building.
+  Once the building construction is done, scaffold goes away.
 
 Step 11
-Let's get rid of the magic number 2 by making it a constant. The FindPrime now looks like this:
+Let's get rid of the magic number 2 by making it a constant. 
+The FindPrime now looks like this:
 
 class FindPrime
   LOWER_BOUND = 2
@@ -295,4 +297,8 @@ class FindPrime
 
 end
 Summary
-In this article we saw how the tests that test the implementation eventually is deleted. We hide the implementation details by making it private to the class. Sometimes, you will have many private methods that operates on the same set of data and might be hiding an abstraction. In such cases, you can extract the functionality in the private methods into it's own class that can be tested separately.
+In this article we saw how the tests that test the implementation eventually is deleted. 
+We hide the implementation details by making it private to the class. 
+Sometimes, you will have many private methods that operates on the same 
+set of data and might be hiding an abstraction. In such cases, you can extract the functionality 
+in the private methods into it's own class that can be tested separately.
