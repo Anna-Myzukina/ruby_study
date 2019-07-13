@@ -1,4 +1,8 @@
 =begin
+*A prime number - Простые числа - is a positive integer that is exactly divisible only by 1 and itself. 
+The first few primes are: 2,3,5,7,11,13,17,19,23,29,31,37
+All primes apart from 2 are odd.
+
 In our previous challenges, we have been using methods (def method() .. end construct) to abstract compound operations, 
 perform data manipulations and learn various concepts of the language, 
 without talking in much detail about the concept of methods themselves, and how they are useful for a programmer. 
