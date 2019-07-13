@@ -2,6 +2,7 @@
 Books, articles, different useful resources for study ruby:
 
 <ul>
+  <li><a href="https://www.mikedane.com/programming-languages/ruby/methods/"></a>The basics of programming in Ruby</li>
   <li>
 <a href="https://www.rubyguides.com/2017/08/ruby-linked-list/">Practical Computer Science in Ruby</a>
   </li>
@@ -25,6 +26,7 @@ Books, articles, different useful resources for study ruby:
  </ul>
 
 <h2>Play ruby : </h2>
+
 1)<a href="https://www.sololearn.com/Play/Ruby">SoloLearn</a> 
 
 2)<a href="https://www.hackerrank.com/domains/ruby">HackerRank</a> 
@@ -40,6 +42,7 @@ Books, articles, different useful resources for study ruby:
 
 
 <h2>Video :</h2>
+
 1)<a href="http://rubyschool.us/">Бесплатный курс по программированию на Ruby для начинающих</a>
 
 2)FreeCodeCamp - 4 hours video <a href="https://www.youtube.com/watch?v=t_ispmWmdjY">Ruby Programming Language - Full Course </a>
