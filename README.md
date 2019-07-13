@@ -24,8 +24,8 @@ Books, articles, different useful resources for study ruby:
   <li><a href="https://ruby-doc.org/">Documentation</a></li>
  </ul>
 
-<h2>Play ruby :</h2>| My progress 
---------------------|--------------------------------------------------------------------
+<h2>Play ruby : | My progress : </h2>
+--------------- | --------------------------------------
 1)<a href="https://www.sololearn.com/Play/Ruby">SoloLearn</a> |
 
 2)<a href="https://www.hackerrank.com/domains/ruby">HackerRank</a> |
