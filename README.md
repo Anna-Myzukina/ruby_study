@@ -24,17 +24,16 @@ Books, articles, different useful resources for study ruby:
   <li><a href="https://ruby-doc.org/">Documentation</a></li>
  </ul>
 
-Play ruby : | My progress : 
---------------- | --------------------------------------
-<a href="https://www.sololearn.com/Play/Ruby">SoloLearn</a> |
+<h2>Play ruby : </h2>
+1)<a href="https://www.sololearn.com/Play/Ruby">SoloLearn</a> 
 
-<a href="https://www.hackerrank.com/domains/ruby">HackerRank</a> |
+2)<a href="https://www.hackerrank.com/domains/ruby">HackerRank</a> 
 
-3)<a href="https://exercism.io/onboarding">Exercism</a> |
+3)<a href="https://exercism.io/onboarding">Exercism</a> 
 
-4)<a href="https://www.codecademy.com/learn/learn-ruby">CodeAcademy</a> |
+4)<a href="https://www.codecademy.com/learn/learn-ruby">CodeAcademy</a> 
 
-5)<a href="https://rubymonk.com/">rubymonk Free, interactive tutorials</a> |
+5)<a href="https://rubymonk.com/">rubymonk Free, interactive tutorials</a> 
 
 
 
