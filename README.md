@@ -40,7 +40,7 @@ Books, articles, different useful resources for study ruby:
 
 5)<a href="https://rubymonk.com/">rubymonk Free, interactive tutorials</a> 
 
-
+6)<a href="https://www.codequizzes.com/ruby/beginner/variables-strings-numbers">CodeQuizzes</a>
 
 
 
