@@ -3,6 +3,9 @@ Books, articles, different useful resources for study ruby:
 
 <ul>
   <li>
+    <a href="https://apidock.com/ruby/Enumerable/find">Methods</a>
+  </li>
+  <li>
     <a href="https://rsdn.org/article/ruby/ruby_edges.xml">Ruby-новые грани</a>
   </li>
   <li>
