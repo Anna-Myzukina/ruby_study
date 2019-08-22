@@ -3,6 +3,9 @@ Books, articles, different useful resources for study ruby:
 
 <ul>
   <li>
+    <a href="https://www.codementor.io/ruby-on-rails/tutorial/6-ruby-best-practices-beginners-should-know">6 Ruby Best Practices Beginners Should Know</a>
+  </li>
+  <li>
     <a href="https://apidock.com/ruby/Enumerable/find">Methods</a>
   </li>
   <li>
