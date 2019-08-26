@@ -117,8 +117,15 @@ Answer:
       (0...2)
 ## Strings:
 * What’s the difference between single and double quotes?
+  
+      Both are essentially the same except string interpolation can only be performed inside double quotes. 
+      Not single quotes.
 * What is string interpolation?
+
+      Ruby's ability to run code within a string.
 * What are escape characters?
+
+      A string value proceeded with a backslash to represent a special meaning.
 * What are line breaks?
 * How do you make other things into strings?
 * How do you concatenate strings?
@@ -132,30 +139,30 @@ Answer:
 * What is a Regular Expression (RegEx)?
 * How can you center or right-justify a string?
 ## Arrays:
-What are three ways to create an array?
-How do you prepopulate the array with default data?
-How do you access items in an array?
-How can you access a specific group of items in an array?
-How do you modify the items in an array?
-How do you combine arrays?
-How do you find the values in one array that aren’t in another?
-How do you find values in both arrays?
-What is the difference between push/pop and shift/unshift?
-What is the shovel operator?
-How is > arr.pop different from > arr[-1]?
-How is pushing or <<ing another array into your array different from just adding them together?
-How do you delete items in an array?
-Why should you be careful deleting items in an array?
-How can you convert arrays to strings?
-How can you convert from other data types to arrays?
-How can you figure out if an array contains a particular value?
-How do you find the biggest item in an array?
-How do you find the smallest item in an array?
-How do you remove any duplicates from your array?
-How do you find out how big an array is?
-How do you put an array in order?
-What are the naming conventions for arrays?
-What should you store in arrays?
+- What are three ways to create an array?
+- How do you prepopulate the array with default data?
+- How do you access items in an array?
+- How can you access a specific group of items in an array?
+- How do you modify the items in an array?
+- How do you combine arrays?
+- How do you find the values in one array that aren’t in another?
+- How do you find values in both arrays?
+- What is the difference between push/pop and shift/unshift?
+- What is the shovel operator?
+- How is > arr.pop different from > arr[-1]?
+- How is pushing or <<ing another array into your array different from just adding them together?
+- How do you delete items in an array?
+- Why should you be careful deleting items in an array?
+- How can you convert arrays to strings?
+- How can you convert from other data types to arrays?
+- How can you figure out if an array contains a particular value?
+- How do you find the biggest item in an array?
+- How do you find the smallest item in an array?
+- How do you remove any duplicates from your array?
+- How do you find out how big an array is?
+- How do you put an array in order?
+- What are the naming conventions for arrays?
+- What should you store in arrays?
 ## Hashes:
 What is a hash?
 What are keys and values?
