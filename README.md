@@ -74,7 +74,7 @@ Books, articles, different useful resources for study ruby:
 <li>Easy to use. Ruby was designed by Yukihiro Matsumoto (often just called “Matz”) in 1995. Matz set out to design a language that emphasized human needs over those of the computer, which is why Ruby is so easy to pick up.</li>
 
 
-# Learning outcomes:
+# Learning outcomes: https://quizlet.com/186336511/ruby-building-blocks-flash-cards/
 ## Numbers, Operators and Expressions:
 - What’s the difference between an Integer and a Float? /an integer must be a whole, real number. For fractions or  other inexact(Для дробей или других неточных) numbers, we create floating point numbers, or float objects, instead.
 To convert a floating point number in Ruby to a Ruby integer, you’d simply wrap the float in an integer, as shown below:
