@@ -127,76 +127,304 @@ Answer:
 
       A string value proceeded with a backslash to represent a special meaning.
 * What are line breaks?
+
+      An escape character written as \n. This starts a newline within a string.
+
+
 * How do you make other things into strings?
+
+      #to_s
 * How do you concatenate strings?
+
+      Either the + operator or #concat
 * How do you access a specific character or substring?
+
+      string[index] or string[start, end]
 * How do you split up strings into arrays?
+
+      #split("")
 * How are strings and arrays similar?
+
+      Both can access their elements with square brackets.
 * How do you get and clean up user input on the command line?
+
+      #gets.chomp
 * What does it mean that strings are “mutable” and why care?
+
+      Mutable means the value can be modified. Not all value types are mutable.
 * What is a symbol?
+
+      An immutable object with its name proceeded with a semicolon. 
+      They can never be changed. 
+      Therefore they make great key names.
 * How is a symbol different from a string?
+
+      A string is mutable where as a symbol is immutable.
 * What is a Regular Expression (RegEx)?
+
+      A generic computer science method for matching a character or a set of characters in a string.   
 * How can you center or right-justify a string?
+
+      "hi".ljust(6,"") => "hi***"
+      "hi".rjust(6) => " hi"
+      "hi".center(6,"!") => "!!hi!!"
 ## Arrays:
 - What are three ways to create an array?
+
+      Array.new
+      array = []
+      %w{}
 - How do you prepopulate the array with default data?
+
+      Array.new(3) { |e| expression }
 - How do you access items in an array?
+
+      array[index]
 - How can you access a specific group of items in an array?
+
+      array[start, end]
 - How do you modify the items in an array?
+
+      array[index] = value
 - How do you combine arrays?
+
+      array + array
 - How do you find the values in one array that aren’t in another?
+
+      array1 - array2
+      This takes away any and all values that are duplicate 
+      in the right array from the left array.
 - How do you find values in both arrays?
+
+      [array]&[array]
 - What is the difference between push/pop and shift/unshift?
+
+      push appends a value to the end of an array where 
+      pop removes the value from the end of the array.
+      shift removes a value from the beginning of an array where 
+      unshift prepends a value to the beginning.
 - What is the shovel operator?
+
+      <<
+      It means the same thing as #push
 - How is > arr.pop different from > arr[-1]?
+
+      arr.pop is removing the last element of the array.
+      arr[-1] is accessing the last element of the array.
 - How is pushing or <<ing another array into your array different from just adding them together?
+
+      Pushing prepends the right array as an element to the end of the left array.
+      Adding the 2 arrays would concatenate them.
 - How do you delete items in an array?
+
+      #delete_at(index)
 - Why should you be careful deleting items in an array?
+
+      If you're deleting items inside a loop it will change the index of the other items.
 - How can you convert arrays to strings?
+
+      #join(delimeter)
 - How can you convert from other data types to arrays?
+
+      #to_a
 - How can you figure out if an array contains a particular value?
+
+      #include?(value)
 - How do you find the biggest item in an array?
+
+      #max
 - How do you find the smallest item in an array?
+
+      #min
 - How do you remove any duplicates from your array?
+
+      #uniq
 - How do you find out how big an array is?
+
+      #size or #length
 - How do you put an array in order?
+
+      #sort
 - What are the naming conventions for arrays?
+
+      Array names should be descriptive and plural.
 - What should you store in arrays?
+
+      Anything
 ## Hashes:
-What is a hash?
-What are keys and values?
-How is a hash similar to an Array?
-How is a hash different from an Array?
-What are 3 ways to create a hash?
-What is the hash rocket?
-How do you access data in a hash?
-How do you change data in a hash?
-What types of data are good to store in a hash?
-What are options hashes?
-How do you delete data from a hash?
-How do you add hashes together?
-How do you list out all the keys or values?
-How do you see if the hash contains a key or value?
-What is a set?
+- What is a hash? 
+        
+       "a dictionary."
+
+      A Hash is a dictionary-like collection of unique keys and their values.
+      Also called associative arrays, they are similar to Arrays, 
+      but where an Array uses integers as its index, a Hash allows you to use any object type.
+- What are keys and values?
+
+      
+      "key is points to the memory location. Value is what's there"
+
+      Hashes enumerate their values in the order that the corresponding keys were inserted.
+- How is a hash similar to an Array?
+
+      "it's still a collection of objects"
+
+      Ruby's arrays and hashes are indexed collections. 
+      Both store collections of objects, accessible using a key.
+      Both arrays and hashes grow as needed to hold new elements.
+      Any particular array or hash can hold objects of differing types; you can have an array containing an integer, a             string, and a floating point number
+      Ruby hashes are similar to arrays. 
+      A hash literal uses braces rather than square brackets. 
+      The literal must supply two objects for every entry: one for the key, the other for the value.
+      For example, you might want to map musical instruments to their orchestral sections. You could do this with a hash.
+        instSection = {
+          'cello'     => 'string',
+          'clarinet'  => 'woodwind',
+          'drum'      => 'percussion',
+          'oboe'      => 'woodwind',
+          'trumpet'   => 'brass',
+          'violin'    => 'string'
+        }
+        Hashes are indexed using the same square bracket notation as arrays.
+        instSection['oboe']	�	"woodwind"
+        instSection['cello']	�	"string"
+        instSection['bassoon']	�	nil
+        - How is a hash different from an Array?
+
+      With arrays, the key is an integer, whereas hashes support any object as a key.
+- What are 3 ways to create a hash?
+
+      Hash.new
+      hash = {}
+      #to_h
+- What is the hash rocket?
+
+      =>
+      Assignment operator for key value pairs
+      
+      In Ruby you can create a Hash by assigning a key to a value with =>, 
+      separate these key/value pairs with commas, and enclose the whole thing with curly braces.
+- How do you access data in a hash?
+
+      hash_name[key_name]
+- How do you change data in a hash?
+
+      hash_name[key_name] = value
+- What types of data are good to store in a hash?
+
+      Nuanced or more complex data than what would be put in an array.
+      An object that has several different attributes.
+- What are options hashes?
+
+      A hash that is the last argument passed to a method.
+      link_to 'click here', "http://www.example.com", :id => "my_special_link", :class => "clickable_link"
+      
+- How do you delete data from a hash?
+
+      hash_name[key_name] = nil
+      hash_name.delete(key_name)
+- How do you add hashes together?
+
+      hash1.merge(hash2)
+- How do you list out all the keys or values?
+
+      hash.keys
+      hash.values
+- How do you see if the hash contains a key or value?
+
+      hash.key(key_name)
+      hash.has_value(value)
+- What is a set?
+
+      A hash where all the values are either true or false. 
+      Its useful because your computer can search more quickly 
+      through this than an array trying to store the same information 
+      due to way its set up behind the scenes.
 ## Dates and Times:
 How do you get the current date and time?
-How do you find just the Year? Month? Hour? Second? Weekday?
-How do you create a Time specifically for 12/25/2013?
-How do you find how many days have passed between two Time’s?
-What’s the difference between UTC and GMT and Local times?
-How would you find out the time that was 100 seconds ago? 10 days ago?
-## Other Random Stuff:
-What is nil?
-How do you check if something is nil?
-What’s the difference between nil and blank and empty?
-Are the following nil or empty? * " ", "", [], [""], {}
-What’s the difference between puts and p and print?
-What does inspect do?
-What do +=, -=, *= and /= do?
-What is parallel assignment?
-What’s the easiest way to swap two variables?
 
+      time = Time.now
+      
+    You can get an object that represents the current time using Time.now
+    You can get the current date using Date.today
+How do you find just the Year? Month? Hour? Second? Weekday?
+
+    time = Time.now
+    time.year
+    time.month
+    time.hour
+    time.sec
+    time.day
+
+    The Date.parse method will try to parse any string that looks like a date.
+    Date.parse("10/10/2010")  # -> 2010-10-10
+    
+    If you need something more strict you can use the Date.iso8601 method.
+    An iso8601 date has the following format:
+    year-month-day
+- How do you create a Time specifically for 12/25/2013?
+
+      time = Time.new(2013, 12, 25)
+- How do you find how many days have passed between two Time’s?
+
+      ((time1 - time2)/60/60/24).to_i
+      "we're converting from seconds to minutes to days"
+- What’s the difference between UTC and GMT and Local times?
+
+
+      "UTC is the universal time"
+      "GMT is based on english time"
+- How would you find out the time that was 100 seconds ago? 10 days ago?
+
+      "100 seconds ago:" Time.now-100
+      "10 days ago:" Time.now - (10*24*60*60)
+## Other Random Stuff:
+- What is nil?
+
+      nil is a special Ruby data type that means "nothing". it`s null
+- How do you check if something is nil?
+
+      .nil?
+- What’s the difference between nil and blank and empty?
+
+      nil? can be called on all objects and returns true for the nil object and false for anything else.
+      empty? is a standard Ruby method on objects like Arrays, Hashes, and Strings. 
+      Typically it returns true if the object         contains no elements.
+      blank? is not a standard Ruby method but is added to all objects by Rails and returns true for nil, 
+      false, empty, or a whitespace string.
+- Are the following nil or empty? * " ", "", [], [""], {}
+      
+      "all empty, not nil"
+      
+- What’s the difference between puts and p and print?
+
+      puts calls .to_s on the value, appends \n, and prints to the command line. Pretty output
+      p calls .inspect on the value and prints to the command line. 
+      Informative output print simply prints the value to the command line on 1 single line
+      
+      "p runs the inspect method"
+      "puts runs the to_s method and adds a newline"
+        "print runs to_s and doesn't add a new line"
+- What does inspect do?
+
+      Returns a string containing a human readable representation of obj.
+      "inspect lets you see the innards of an object printed on the screen"
+- What do +=, -=, *= and /= do?
+
+        += "calls the + method of the first object and reassigns the memory location to the result"
+        -= "is the same thing, but with the - method"
+        a *= b "is the same as" a = a * b
+        a /= b "is the same as" a = a/b
+- What is parallel assignment?
+
+        "when you assign the values of more than one variable at a time"
+        a, b = "foo", "bar"
+- What’s the easiest way to swap two variables?
+
+      Parallel assignment
+      var1, var2 = var2, var1
+      
+      a, b = b, a
 
 
 
