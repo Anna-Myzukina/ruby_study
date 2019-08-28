@@ -109,7 +109,7 @@ Answer:
       
 - What’s the difference between (1..3) and (1...3)?
 
-      (1..3) is inclusive [1,2,2]  and (1...3) is exclusive [1,2] 
+      (1..3) is inclusive [1,2,3]  and (1...3) is exclusive [1,2] 
 - What are three ways to create a range?
 
       Range.new(0, 2)
@@ -133,22 +133,22 @@ Answer:
 
 * How do you make other things into strings?
 
-      #to_s
+      .to_s
 * How do you concatenate strings?
 
-      Either the + operator or #concat
+      Either the + operator or .concat
 * How do you access a specific character or substring?
 
       string[index] or string[start, end]
 * How do you split up strings into arrays?
 
-      #split("")
+      .split("")
 * How are strings and arrays similar?
 
       Both can access their elements with square brackets.
 * How do you get and clean up user input on the command line?
 
-      #gets.chomp
+      .gets.chomp
 * What does it mean that strings are “mutable” and why care?
 
       Mutable means the value can be modified. Not all value types are mutable.
@@ -217,34 +217,34 @@ Answer:
       Adding the 2 arrays would concatenate them.
 - How do you delete items in an array?
 
-      #delete_at(index)
+      .delete_at(index)
 - Why should you be careful deleting items in an array?
 
       If you're deleting items inside a loop it will change the index of the other items.
 - How can you convert arrays to strings?
 
-      #join(delimeter)
+      .join(delimeter)
 - How can you convert from other data types to arrays?
 
-      #to_a
+      .to_a
 - How can you figure out if an array contains a particular value?
 
-      #include?(value)
+      .include?(value)
 - How do you find the biggest item in an array?
 
-      #max
+      .max
 - How do you find the smallest item in an array?
 
-      #min
+      .min
 - How do you remove any duplicates from your array?
 
-      #uniq
+      .uniq
 - How do you find out how big an array is?
 
-      #size or #length
+      .size or .length
 - How do you put an array in order?
 
-      #sort
+      .sort
 - What are the naming conventions for arrays?
 
       Array names should be descriptive and plural.
@@ -296,7 +296,7 @@ Answer:
 
       Hash.new
       hash = {}
-      #to_h
+      .to_h
 - What is the hash rocket?
 
       =>
@@ -340,7 +340,7 @@ Answer:
       Its useful because your computer can search more quickly 
       through this than an array trying to store the same information 
       due to way its set up behind the scenes.
-## Dates and Times:
+## Dates and Times:  https://www.eriktrautman.com/posts/ruby-explained-dates-and-times
 How do you get the current date and time?
 
       time = Time.now
@@ -378,7 +378,7 @@ How do you find just the Year? Month? Hour? Second? Weekday?
 
       "100 seconds ago:" Time.now-100
       "10 days ago:" Time.now - (10*24*60*60)
-## Other Random Stuff:
+## Other Random Stuff:  https://www.eriktrautman.com/posts/ruby-explained-other-random-tidbits
 - What is nil?
 
       nil is a special Ruby data type that means "nothing". it`s null
@@ -428,11 +428,53 @@ How do you find just the Year? Month? Hour? Second? Weekday?
 
 
 
-Conditionals and Flow Control:
-What is a “boolean”?
-What are “truthy” values?
-Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
-When do you use elsif?
+## Conditionals and Flow Control:
+- What is a “boolean”?
+
+      A boolean is a value used in a logic statement to say if something is considered 
+      true or 
+      false.
+- What are “truthy” values?
+
+      0 - numeric zero (Integer or otherwise)
+      "" - Empty strings
+      "\n" - Strings containing only whitespace
+      [] - Empty arrays
+      {} - Empty hashes
+- Are nil, 0, "0", "", 1, [], {} and -1 considered true or false?
+      
+      We can check using in terminal irb and next code:
+      def check_truthy(var_name, var)
+        is_truthy = var ? "true" : "false"
+          puts "#{var_name} is #{is_truthy}"
+        end
+
+      check_truthy("nil", nil)
+      check_truthy("0", 0)
+      check_truthy("zero", 0)
+      check_truthy("empty string", "")
+      check_truthy("number one", 1)
+      check_truthy("empty array", [])
+      check_truthy("empty hash", {})
+      check_truthy("number minus one", -1)
+      
+      // output next:
+      nil is false
+      0 is true
+      zero is true
+      empty string is true
+      number one is true
+      empty array is true
+      empty hash is true
+      number minus one is true
+In Ruby, there are exactly two values which are considered "falsy", 
+and will return false when tested as a condition for an if expression. 
+      They are:
+
+      nil
+      boolean false
+      
+- When do you use elsif?
 When do you use unless?
 What does <=> do?
 Why might you define your own <=> method?
