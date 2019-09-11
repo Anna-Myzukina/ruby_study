@@ -73,6 +73,26 @@ Books, articles, different useful resources for study ruby:
 
 <li>Easy to use. Ruby was designed by Yukihiro Matsumoto (often just called “Matz”) in 1995. Matz set out to design a language that emphasized human needs over those of the computer, which is why Ruby is so easy to pick up.</li>
 
+## [The return Keyword in Ruby](https://medium.com/rubycademy/the-return-keyword-in-ruby-df0a7f578fcb)
+  * explicit return явный
+  
+          Ruby предоставляет ключевое слово, которое позволяет разработчику явно останавливать поток 
+          выполнения метода и возвращать определенное значение
+          
+        def explicit_return_call
+          puts 'before return call'
+
+          return 'return call'
+
+          puts 'after return call'
+        end
+
+        puts explicit_return_call
+        
+  * implicit return неявный
+  * unexpected returns
+  * return in procs and lambdas
+
 
 # Learning outcomes: https://quizlet.com/186336511/ruby-building-blocks-flash-cards/
 ## Numbers, Operators and Expressions:
